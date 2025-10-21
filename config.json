@@ -68,9 +68,9 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8",
       "name": "红牛资源"
     }, 
-    "1080zyk": {
-      "api": "https://api.yzzy-api.com/inc/api_mac10.php",
-      "name": "1080资源"
+    "niuniu": {
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8",
+      "name": "牛牛资源"
     },
     "wwzy": {
       "api": "https://wwzy.tv/api.php/provide/vod",
