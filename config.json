@@ -59,7 +59,7 @@
     "yinghua": {
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
       "name": "樱花资源"
-    }，
+    },
     "wujin": {
       "api": "https://api.wujinapi.me/api.php/provide/vod",
       "name": "无尽资源"
