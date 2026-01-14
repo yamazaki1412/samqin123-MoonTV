@@ -29,7 +29,7 @@ export const UserMenu: React.FC = () => {
   const [doubanProxyUrl, setDoubanProxyUrl] = useState('');
   const [imageProxyUrl, setImageProxyUrl] = useState('');
   const [enableOptimization, setEnableOptimization] = useState(true);
-  const [enableImageProxy, setEnableImageProxy] = useState(false);
+  const [enableImageProxy, setEnableImageProxy] = useState(true);
   const [enableDoubanProxy, setEnableDoubanProxy] = useState(false);
 
   // 修改密码相关状态
@@ -277,7 +277,7 @@ export const UserMenu: React.FC = () => {
       localStorage.setItem('enableOptimization', JSON.stringify(true));
       localStorage.setItem('doubanProxyUrl', defaultDoubanProxy);
       localStorage.setItem(
-        'enableDoubanProxy',
+        'enableDoubanProxy'，
         JSON.stringify(!!defaultDoubanProxy)
       );
       localStorage.setItem(
@@ -403,7 +403,7 @@ export const UserMenu: React.FC = () => {
           {/* 版本信息 */}
           <button
             onClick={() =>
-              window.open('https://kid-movie.kaitokid.xx.kg/', '_blank')
+              window.open('https://kid-movie.xn--66t412edfppgi.dpdns.org/', '_blank')
             }
             className='w-full px-3 py-2 text-center flex items-center justify-center text-gray-500 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors text-xs'
           >
