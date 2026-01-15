@@ -277,7 +277,7 @@ export const UserMenu: React.FC = () => {
       localStorage.setItem('enableOptimization', JSON.stringify(true));
       localStorage.setItem('doubanProxyUrl', defaultDoubanProxy);
       localStorage.setItem(
-        'enableDoubanProxy'，
+        'enableDoubanProxy',
         JSON.stringify(!!defaultDoubanProxy)
       );
       localStorage.setItem(
